@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content=“Next University”>
+    <meta name="description" content=“Hoja de Vida de tu Nombre Apellido“>
+    <title>Resumen Curricular</title>
+  </head>
+  <body>
+    <svg>
+      <image xlink:href="img/Logo.svg" width="100px" height="100px" ></image>
+    </svg>
+    <h1>Resúmen curricular</h1>
+    <h2>Andrés Vera Buitrago</h2>
+    <h3>Enero de 1985 - Bogotá - Colombia</h3>
+    <tr>
+      <td>
+        <a href="index.html">Index</a>
+      </td>
+    	<td>
+        <a href="educacion.html">Educación</a>
+      </td>
+    	<td>
+        <a href="experiencia.html">Experiencia</a>
+      </td>
+    </tr>
+    <h2>Educación</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+          <th>Nivel de estudio</th>
+					<th>Lugar</th>
+					<th>Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2007</td>
+					<td>Universidad Central</td>
+          <td>Pregrado</td>
+					<td>Bogotá</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2011</td>
+					<td>Universidad EAN</td>
+          <td>Especialización</td>
+          <td>Bogotá</td>
+					<td>Si</td>
+				</tr>
+        <tr>
+          <td>2017</td>
+          <td>Universidad Nacional</td>
+          <td>Maestria</td>
+          <td>Bogotá</td>
+          <td>Actual</td>
+        </tr>
+			</tbody>
+		</table>
+    <br><br>
+    <form autocomplete="on" name="Formulario1">
+      <fieldset>
+        <legend><b>Agregar estudios</b></legend>
+        <b>Año:</b>
+        <select name="Year">
+           <option value="2012">2012</option>
+           <option value="2013">2013</option>
+           <option value="2014">2014</option>
+           <option value="2015">2015</option>
+           <option value="2016">2016</option>
+           <option value="2017">2017</option>
+        </select>
+        <br>
+        <label for="Institucion"><b>Institución</b></label>
+        <input type="text" placeholder="Ej: Entidad educativa" autofocus required>
+        <br>
+        <b>Nivel de estudio</b>
+        <select name="Nivel">
+           <option value="1">Tecnico</option>
+           <option value="2">Pregrado</option>
+           <option value="3">Especialización</option>
+           <option value="4">Maestria</option>
+           <option value="5">Doctorado</option>
+        </select>
+        <br>
+        <label for="Lugar"><b>Lugar</b></label>
+        <input type="text" placeholder="Ej: Ciudad" autofocus required>
+        <br>
+        <b>Culminó?</b>
+        <input type="radio" name="termino" value="Si" checked> Si
+        <input type="radio" name="termino" value="Actual"> Actual
+        <input type="radio" name="termino" value="No"> No<br>
+        <p>
+      		<input type="submit" value="Enviar">
+      	</p>
+      </fieldset>
+    </form>
+    <footer>
+    </br></br></br>
+      ----------------------------------------
+         Contacto: anverabu@unal.edu.co
+      ----------------------------------------
+    </footer>
+   </body>
+</html>
